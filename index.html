@@ -13,83 +13,93 @@
 	<div class="page-header">
 		<h1>Web storage サンプル</h1>
 	</div>
-	<div class="well">
-	<h2>Web StorageとCookieの機能の差異</h2>
-	<table class="table table-bordered" style="width:80%;">
-		<thead>
-			<tr>
-				<th>&nbsp;</th>
-				<th>Web Storage</th>
-				<th>Cookie</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>保存容量</td>
-				<td>&nbsp;</td>
-				<td>data</td>
-			</tr>
-			<tr>
-				<td>データの有効期限</td>
-				<td>あり</td>
-				<td>なし</td>
-			</tr>
-			<tr>
-				<td>セキュリティ</td>
-				<td>すべてのリクエストに対してサーバにデータを自動送信</td>
-				<td>データを利用する時のみ送信（自動で送信しない）</td>
-			</tr>
-		</tbody>
-	</table>
 
-	<h2>ブラウザ対応状況</h2>
-	<table class="table table-bordered" style="width:40%;">
-		<thead>
-			<tr>
-				<th>ブラウザ</th>
-				<th>対応バージョン</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Internet Explorer</td>
-				<td>8以降</td>
-			</tr>
-			<tr>
-				<td>Firefox</td>
-				<td>3.6以降</td>
-			</tr>
-			<tr>
-				<td>Chrome</td>
-				<td>8以降</td>
-			</tr>
-			<tr>
-				<td>Safari</td>
-				<td>5以降</td>
-			</tr>
-			<tr>
-				<td>Opera</td>
-				<td>11以降</td>
-			</tr>
-		</tbody>
-	</table>
-
-	</div>
-
-
-
-
-	<h2 style="margin-top:50px;">Local Storage</h2>
+	<h2>Local Storage</h2>
 	<div class="list-group">
 		<a href="./form/" class="list-group-item">
-			<h4 class="list-group-item-heading">フォームの入力内容を保存</h4>
+			<h4 class="list-group-item-heading">▼ フォームの入力内容を保存</h4>
 			<p class="list-group-item-text">入力された値をLocalStorageに随時保存。LocalStorageに値がある場合は、ページロード時に値を表示。</p>
 		</a>
 		<a href="./checklist/" class="list-group-item">
-			<h4 class="list-group-item-heading">最近チェックした商品</h4>
+			<h4 class="list-group-item-heading">▼ 最近チェックした商品</h4>
 			<p class="list-group-item-text">ECサイトなどを想定した、アイテムの閲覧履歴。</p>
 		</a>
 	</div>
+
+
+	<div class="panel panel-info" style="margin-top:40px;">
+		<div class="panel-heading">
+			<h3 class="panel-title">Web StorageとCookieの機能の差異</h3>
+		</div>
+		<div class="panel-body">
+			<table class="table table-bordered" style="width:80%;">
+				<thead>
+					<tr>
+						<th>&nbsp;</th>
+						<th>Web Storage</th>
+						<th>Cookie</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>保存容量</td>
+						<td>&nbsp;</td>
+						<td>data</td>
+					</tr>
+					<tr>
+						<td>データの有効期限</td>
+						<td>あり</td>
+						<td>なし</td>
+					</tr>
+					<tr>
+						<td>セキュリティ</td>
+						<td>すべてのリクエストに対してサーバにデータを自動送信</td>
+						<td>データを利用する時のみ送信（自動で送信しない）</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="panel panel-info" style="margin-top:40px;">
+		<div class="panel-heading">
+			<h3 class="panel-title">ブラウザ対応状況</h3>
+		</div>
+		<div class="panel-body">
+			<table class="table table-bordered" style="width:40%;">
+				<thead>
+					<tr>
+						<th>ブラウザ</th>
+						<th>対応バージョン</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Internet Explorer</td>
+						<td>8以降</td>
+					</tr>
+					<tr>
+						<td>Firefox</td>
+						<td>3.6以降</td>
+					</tr>
+					<tr>
+						<td>Chrome</td>
+						<td>8以降</td>
+					</tr>
+					<tr>
+						<td>Safari</td>
+						<td>5以降</td>
+					</tr>
+					<tr>
+						<td>Opera</td>
+						<td>11以降</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
 
 </div><!-- /.container -->
 
