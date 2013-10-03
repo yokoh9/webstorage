@@ -3,12 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Local storage - 最近チェックした商品</title>
-<link rel="stylesheet" href="../common/css/bootstrap.min.css"><link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="../common/css/bootstrap.min.css">
+<link rel="stylesheet" href="../common/css/style.css">
+<link rel="stylesheet" href="./css/style.css">
 <script src="../common/js/jquery-1.9.1.min.js"></script>
 <script src="../common/js/jquery.tmpl.min.js"></script>
 <script src="./js/checklist.js"></script>
 </head>
 <body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="../">HOME</a>
+		</div>
+	</div>
+</div><!--/.navbar -->
 
 <div class="container">
 	<div class="page-header">
@@ -20,7 +30,6 @@
 			<li>商品詳細ページ参照時に、URLから商品IDを取得　⇒　LocalStorageに格納（最新5つ）。</li>
 			<li>LocalStorageの商品IDとマッチする商品をチェックリストに表示。</li>
 		</ul>
-
 	</div>
 
 	<div class="row row-offcanvas row-offcanvas-right">
