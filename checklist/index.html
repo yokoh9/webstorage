@@ -58,7 +58,26 @@
 				<p>Banner</p>
 			</div>
 
-			<!--#include file ="checklist.html"-->
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">最近チェックした商品</h3>
+				</div>
+				<div class="panel-body">
+					<ul class="checklist">
+
+						<script type="text/x-jquery-tmpl" id="checkListTemplate">
+						<li>
+							<a href="./item_${id}.html">
+								<img src="./images/${id}.jpg" alt="">
+								<span class="title">${title}</span>
+								<span class="price">${price}円</span>
+							</a>
+						</li>
+						</script>
+
+					</ul>
+				</div>
+			</div><!--/.panel-->
 
 		</div><!--/side column-->
 	</div><!--/columns-->
